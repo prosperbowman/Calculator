@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <div class="phone">
+    <div id="wrapper" class="wrapper">
+        <div id="phone" class="phone">
             <div class="input">
                 <input type="text" id="inputext" placeholder="0">
             </div>
@@ -34,7 +34,7 @@
                 <button class="eighteen" onclick="calculate('.')">.</button>
                 <button class="nineteen" onclick="Result('=')">=</button>
             </div>
-            <button id="switch" class="switch">Switch Theme</button>
+            <button class="switch" onclick="wrapper()">Switch Theme</button>
             <script src="calculator.js"></script>
         </div>
     </div>
