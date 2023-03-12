@@ -129,13 +129,14 @@ button:hover{
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #e71118; /* Red */
+    text-align: center;
+    /* background-color: #e71118; */
   }
      .wrapper{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -148,20 +149,20 @@ button:hover{
     justify-self: center;
     justify-self: center;
     justify-items: center;
-    color: brown;
 }
 }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
-    background-color: #fca104; /* Yellow */
+    text-align: center;
+    /* background-color: #fca104; */
   }
     .wrapper{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -174,21 +175,20 @@ button:hover{
     justify-self: center;
     justify-self: center;
     justify-items: center;
-    color: brown;
 }
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #11e709; /* Blue */
+    /* background-color: #11e709; */
     text-align: center;
   }
   .wrapper{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -201,7 +201,6 @@ button:hover{
     justify-self: center;
     justify-self: center;
     justify-items: center;
-    color: brown;
 }
 
 }
