@@ -13,13 +13,11 @@ function del(){
     result.value=result.value.slice(0,-1);
 }
 
-
-
 function wrapper(){
   var click = document.getElementById("phone");
-   if(click.style.backgroundColor =="black") {
+   if(click.style.backgroundColor ==="whitesmoke") {
             click.style.backgroundColor ="wheat";
          }else{ 
-            click.style.backgroundColor ="black";
+            click.style.backgroundColor ="whitesmoke";
          }
     }
